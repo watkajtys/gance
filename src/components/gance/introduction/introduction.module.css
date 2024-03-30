@@ -1,0 +1,20 @@
+.introduction {
+  max-width: 1080px;
+  width: 100%;
+}
+
+.introduction h3 {
+  color: var(--dark-text);
+}
+
+.headshot {
+  border-radius: 10px 20px;
+}
+
+@media screen and (min-width: 768px) {
+
+  .headshot {
+    float: left;
+    border-radius: 20px;
+  }
+}

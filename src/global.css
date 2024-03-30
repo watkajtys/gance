@@ -7,21 +7,22 @@
  */
 
 :root {
-  --qwik-dark-blue: #006ce9;
-  --qwik-light-blue: #18b6f6;
+  --dark-blue: rgb(50,100,90);
+  --light-blue: rgb(140, 200, 200);
   --qwik-light-purple: #ac7ff4;
   --qwik-dark-purple: #713fc2;
-  --qwik-dirty-black: #1d2033;
-  --qwik-dark-background: #151934;
+  --qwik-dirty-black: #222;
+  --qwik-dark-background: rgb(140,200,200);
   --qwik-dark-text: #ffffff;
+    --dark-text : #686764;
 }
 
 html {
   line-height: 1;
   -webkit-text-size-adjust: 100%;
-  -moz-tab-size: 4;
-  -o-tab-size: 4;
-  tab-size: 4;
+  -moz-tab-size: 2;
+  -o-tab-size: 2;
+  tab-size: 2;
   font-family:
     ui-sans-serif,
     system-ui,

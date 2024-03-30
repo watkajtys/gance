@@ -1,0 +1,114 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  color: var(--dark-text);
+}
+
+.logo {
+  display: inline-block;
+}
+.logo a {
+  display: block;
+}
+
+.logo h1 {
+    font-size: 2rem;
+    text-align: left;
+    color: var(--dark-text);
+}
+
+.logo h2 {
+    font-size: 1.5rem;
+    text-align: left;
+    color: var(--dark-text);
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.button {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    background: var(--light-blue);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  transition: background 0.3s;
+}
+
+.button:hover {
+    background: var(--dark-blue);
+}
+
+.menu a {
+  position: relative;
+}
+
+.menu a:not(.button)::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2px;
+  height: 2px;
+  background: var(--dark-blue);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.menu a:not(.button):hover::after {
+  transform: scaleX(1);
+}
+
+.menu a:not(.button):hover {
+  color: var(--dark-blue);
+  transition: color 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .menu a {
+    display: flex;
+  }
+
+  /*header li a without the class of button*/
+
+  .header .menu > :not(.button) {
+    display: none;
+    color: orange;
+  }
+
+  .header .menu > .button {
+    display: block;
+    font-size: .8rem;
+    padding: 10px;
+  }
+
+  .logo h1 {
+    font-size: 1.25rem;
+  }
+
+  .logo h2 {
+    font-size: 1rem;
+  }
+
+  .wrapper {
+    padding: 20px !important;
+  }
+}
