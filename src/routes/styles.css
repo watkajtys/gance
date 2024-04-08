@@ -1,8 +1,17 @@
 /* THIS FILE IS JUST FOR EXAMPLES, DELETE IT IF YOU DON'T NEED IT */
 
 /* SHELL ---------------------------------------- */
+
+@font-face {
+  font-family: 'Montserrat-ExtraLight';
+  src:url('/fonts/Montserrat-ExtraLight.ttf.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   font-family:
+  Montserrat-ExtraLight,
     ui-sans-serif,
     system-ui,
     -apple-system,
@@ -25,6 +34,16 @@ body {
   overflow-x: hidden;
 }
 
+p {
+  color: var(--dark-text);
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  line-height: 1.25rem;
+}
+
+p:first-of-type {
+  margin-top: 0;
+}
 /* HEADINGS ------------------------------------- */
 h1,
 h2,
@@ -56,6 +75,10 @@ h2 .highlight {
 
 h3 {
   font-size: 2rem;
+}
+
+.__center_text {
+  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -113,6 +136,10 @@ ul {
   color: var(--dark-text);
 }
 
+.section {
+  margin: var(--top-margin) 0;
+}
+
 .pull-left {
   text-align: left !important;
 }
@@ -161,6 +188,10 @@ button.button-small {
     font-size: 1rem;
     padding: 23px 35px;
   }
+}
+
+.margin {
+  margin: var(--top-margin)
 }
 
 /* used icon pack: https://www.svgrepo.com/collection/phosphor-thin-icons */
