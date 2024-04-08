@@ -14,6 +14,8 @@
 @media screen and (min-width: 768px) {
 
   .headshot {
+    top: 60px;
+    position: sticky;
     float: left;
     border-radius: 20px;
   }

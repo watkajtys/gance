@@ -7,7 +7,7 @@ export default component$(() => {
   return (
       <div class={["container", "container-white", "container-center", styles.introduction]}>
         <h3>Jennifer Gance, ICE-PCC</h3>
-        <div class={["container", "container-flex", styles.textWrap]}>
+        <div class={["container", "container-flex","container-no-horizontal-padding", styles.textWrap]}>
           <Headshot alt="jennifer gance" class={styles.headshot}/>
           <div class={"pull-left"}>
             <p>I support organizations who are interested in raising and expanding their consciousness through focused
@@ -33,20 +33,20 @@ export default component$(() => {
 
         <div class={'section'}>
           <h3>Corporate Sector & Organizations</h3>
-          <div class={["container", "container-flex", styles.textWrap]}>
+          <div class={["container", "container-flex", "container-no-horizontal-padding"]}>
             <div>
               <p>All services are tailored or unique organizational needs:</p>
-              <ul class={["pull-left margin"]}>
-                <li>Short & Long-term engagements - I’ve have engagements run from 3 months to 2+ years.</li>
-                <li>Targeted workshops, Retreats, Lunch & Learns - 1/2 day, week long, etc.</li>
-                <li>Emotional Intelligence assessment certification (EQ-i 2.0) - Individual and 360 assessments.</li>
-                <li>DRiV Assessment - provides access and actionable approaches to what drives or drains behaviors.</li>
-                <li>Energy Leadership Index (ELI) -Individual and 360 assessments that measure attitudes in terms of
-                  energy.
+              <ul class={["pull-left"]}>
+                <li><p>Short & Long-term engagements - I’ve have engagements run from 3 months to 2+ years.</p></li>
+                <li><p>Targeted workshops, Retreats, Lunch & Learns - 1/2 day, week long, etc.</p></li>
+                <li><p>Emotional Intelligence assessment certification (EQ-i 2.0) - Individual and 360 assessments.</p></li>
+                <li><p>DRiV Assessment - provides access and actionable approaches to what drives or drains behaviors.</p></li>
+                <li><p>Energy Leadership Index (ELI) -Individual and 360 assessments that measure attitudes in terms of
+                  energy.</p>
                 </li>
-                <li>1:1 Coaching - executives, mid-level management, new managers and personal coaching.</li>
-                <li>Consulting</li>
-                <li>Much more!!!</li>
+                <li><p>1:1 Coaching - executives, mid-level management, new managers and personal coaching.</p></li>
+                <li><p>Consulting</p></li>
+                <li><p>Much more!!!</p></li>
               </ul>
             </div>
 
