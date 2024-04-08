@@ -6,8 +6,8 @@
   margin: 0;
   list-style-type:none;
   padding: 30px 40px;
-  min-height: 250px;
-  min-width: 250px;
+  min-height: 200px;
+  min-width: 200px;
   border-radius: 6px;
   container-type: size;
 
@@ -21,8 +21,8 @@
   --delay: calc((var(--duration) / var(--count)) * (var(--index, 0) - (var(--count) * 0.5)));
   --origin-y: 0;
   --destination-y : 0;
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
   flex-shrink: 0;
 
   --origin-x : calc(((var(--count) - var(--index)) + var(--inset, 0)) * 100%);

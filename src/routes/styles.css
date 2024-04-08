@@ -41,9 +41,7 @@ p {
   line-height: 1.25rem;
 }
 
-p:first-of-type {
-  margin-top: 0;
-}
+
 /* HEADINGS ------------------------------------- */
 h1,
 h2,
@@ -188,7 +186,12 @@ button.button-small {
     font-size: 1rem;
     padding: 23px 35px;
   }
+
+  p:first-of-type {
+    margin-top: 0;
+  }
 }
+
 
 .margin {
   margin: var(--top-margin)
