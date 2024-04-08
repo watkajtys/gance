@@ -3,7 +3,8 @@ import type { DocumentHead } from "@builder.io/qwik-city";
 
 import Hero    from "~/components/gance/hero/hero";
 import Introduction from "~/components/gance/introduction/introduction";
-import Marquee from "~/components/gance/marquee/marquee";
+import Marquee    from "~/components/gance/marquee/marquee";
+import Imageblock from "~/components/gance/imageblock/imageblock";
 
 export default component$(() => {
   return (
@@ -14,6 +15,7 @@ export default component$(() => {
         <h2 class={'__center_text'}>Expanding Consciousness At Innovative Organizations</h2>
         <Marquee />
       </div>
+      <Imageblock />
 
     </>
   );
