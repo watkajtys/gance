@@ -38,7 +38,7 @@ p {
   color: var(--dark-text);
   font-size: 1.2rem;
   letter-spacing: 1px;
-  line-height: 1.25rem;
+  line-height: 1.3rem;
 }
 
 
@@ -135,11 +135,15 @@ ul {
 }
 
 .section {
-  margin: var(--top-margin) 0;
+  padding: var(--top-margin) 0;
 }
 
 .pull-left {
-  text-align: left !important;
+  text-align : left !important;
+}
+
+.container.container-no-horizontal-padding {
+  padding: 30px 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -151,7 +155,11 @@ ul {
   }
   .container.container-flex {
     display: flex;
-    gap: 60px;
+    gap: 30px;
+  }
+
+  .container.container-no-horizontal-padding {
+    padding: 60px 0;
   }
 }
 
