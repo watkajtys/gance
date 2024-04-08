@@ -8,9 +8,8 @@ export default component$(() => {
         <CityBG class={styles["hero-image"]} alt="Image thunder"/>
         <div class={styles["hero-text"]}>
           <h1 class={styles.shadow}>
-            Leadership, Teams & Individuals
+            Life and Leadership
           </h1>
-          <p>Tailored Learning and Development</p>
         </div>
       </div>
   );
