@@ -1,5 +1,5 @@
 import {component$} from "@builder.io/qwik";
-import styles       from "./introduction.module.css";
+import styles   from "./introduction.module.css";
 import Headshot from "../../../media/headshot.jpeg?jsx";
 import Corp from "../../../media/corp.jpeg?jsx";
 
@@ -31,26 +31,27 @@ export default component$(() => {
 
         <a href="mailto:jennifer@jennifergance.com" class={["cta-wide", "button"]}>Get Started</a>
 
+        <div class={'section'}>
+          <h3>Corporate Sector & Organizations</h3>
+          <div class={["container", "container-flex", styles.textWrap]}>
+            <div>
+              <p>All services are tailored or unique organizational needs:</p>
+              <ul class={["pull-left margin"]}>
+                <li>Short & Long-term engagements - I’ve have engagements run from 3 months to 2+ years.</li>
+                <li>Targeted workshops, Retreats, Lunch & Learns - 1/2 day, week long, etc.</li>
+                <li>Emotional Intelligence assessment certification (EQ-i 2.0) - Individual and 360 assessments.</li>
+                <li>DRiV Assessment - provides access and actionable approaches to what drives or drains behaviors.</li>
+                <li>Energy Leadership Index (ELI) -Individual and 360 assessments that measure attitudes in terms of
+                  energy.
+                </li>
+                <li>1:1 Coaching - executives, mid-level management, new managers and personal coaching.</li>
+                <li>Consulting</li>
+                <li>Much more!!!</li>
+              </ul>
+            </div>
 
-        <h3>Corporate Sector & Organizations</h3>
-        <div class={["container", "container-flex", styles.textWrap]}>
-          <div>
-            <p>All services are tailored or unique organizational needs:</p>
-            <ul class={["pull-left"]}>
-              <li>Short & Long-term engagements - I’ve have engagements run from 3 months to 2+ years.</li>
-              <li>Targeted workshops, Retreats, Lunch & Learns - 1/2 day, week long, etc.</li>
-              <li>Emotional Intelligence assessment certification (EQ-i 2.0) - Individual and 360 assessments.</li>
-              <li>DRiV Assessment - provides access and actionable approaches to what drives or drains behaviors.</li>
-              <li>Energy Leadership Index (ELI) -Individual and 360 assessments that measure attitudes in terms of
-                energy.
-              </li>
-              <li>1:1 Coaching - executives, mid-level management, new managers and personal coaching.</li>
-              <li>Consulting</li>
-              <li>Much more!!!</li>
-            </ul>
+            <Corp alt="jennifer gance" class={styles.headshot}/>
           </div>
-
-          <Corp alt="jennifer gance" class={styles.headshot}/>
         </div>
       </div>
   )
