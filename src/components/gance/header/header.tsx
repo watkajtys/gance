@@ -8,7 +8,7 @@ export default component$(() => {
           <div class={styles.logo}>
             <a href="/" title="jennifer gance">
               <h1>Jennifer Gance</h1>
-              <h2>coach & consultant</h2>
+              <h2>Coaching & Consulting</h2>
             </a>
           </div>
           <ul>
@@ -17,19 +17,19 @@ export default component$(() => {
                   href="/corporate"
                   target="_blank"
               >
-                Corporate
+                About
               </a>
               <a
                   href="/about"
                   target="_blank"
               >
-                About
+                Services
               </a>
               <a
                   href="/contact"
                   target="_blank"
               >
-                Contact
+                Testimonials
               </a>
 
               <a href="mailto:jennifer@jennifergance.com" class={styles.button}>
