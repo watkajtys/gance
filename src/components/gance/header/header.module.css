@@ -94,12 +94,6 @@
     display: flex;
   }
 
-  /*header li a without the class of button*/
-
-  .header .menu > :not(.button) {
-    display: none;
-    color: orange;
-  }
 
   .header .menu > .button {
     display: block;

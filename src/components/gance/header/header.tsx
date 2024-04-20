@@ -18,8 +18,7 @@ export default component$(() => {
           <ul>
             <li class={styles.menu}>
               <a
-                  href="/corporate"
-                  target="_blank"
+                  href="/about"
               >
                 About
               </a>
