@@ -9,7 +9,7 @@ import Imageblock from "~/components/gance/imageblock/imageblock";
 export default component$(() => {
   return (
     <>
-      <Hero />
+      <Hero text={'Life and Leadership'}/>
       <Introduction />
       <div class={'container container-center'}>
         <h2 class={'__center_text'}>Expanding Consciousness At Innovative Organizations</h2>

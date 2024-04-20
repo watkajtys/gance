@@ -23,14 +23,12 @@ export default component$(() => {
                 About
               </a>
               <a
-                  href="/about"
-                  target="_blank"
+                  href="/services"
               >
                 Services
               </a>
               <a
                   href="/contact"
-                  target="_blank"
               >
                 Testimonials
               </a>
