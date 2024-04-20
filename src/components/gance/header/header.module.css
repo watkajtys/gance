@@ -10,7 +10,14 @@
   display: inline-block;
 }
 .logo a {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
 }
 
 .logo h1 {

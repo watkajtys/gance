@@ -1,5 +1,6 @@
 import {component$} from "@builder.io/qwik";
 import styles       from "./header.module.css";
+import MainLogo from "~/media/JGLogo.png?jsx";
 
 export default component$(() => {
   return (
@@ -7,8 +8,11 @@ export default component$(() => {
         <div class={["container", styles.wrapper]}>
           <div class={styles.logo}>
             <a href="/" title="jennifer gance">
-              <h1>Jennifer Gance</h1>
-              <h2>Coaching & Consulting</h2>
+              <MainLogo/>
+              <div>
+                <h1>Jennifer Gance</h1>
+                <h2>Coaching & Consulting</h2>
+              </div>
             </a>
           </div>
           <ul>

@@ -3,6 +3,7 @@
   width: 100%;
 }
 
+/*noinspection CssUnresolvedCustomProperty*/
 .introduction h3 {
   color: var(--dark-text);
 }

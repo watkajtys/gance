@@ -13,10 +13,10 @@ export default component$(() => {
       <Introduction />
       <div class={'container container-center'}>
         <h2 class={'__center_text'}>Expanding Consciousness At Innovative Organizations</h2>
-        <Marquee />
       </div>
+      <Marquee />
+      <div class={'spacer'}/>
       <Imageblock />
-
     </>
   );
 });

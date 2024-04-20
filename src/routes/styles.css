@@ -28,6 +28,7 @@ html {
     "Noto Color Emoji";
 }
 
+/*noinspection CssUnresolvedCustomProperty*/
 body {
   background: var(--qwik-dark-background);
   color: var(--qwik-dark-text);
@@ -108,6 +109,10 @@ ul {
   padding-left: 20px;
 }
 
+.spacer {
+  padding: 30px 40px;
+}
+
 /* CONTAINER ------------------------------------ */
 .container {
   margin: 0 auto;
@@ -123,6 +128,10 @@ ul {
 }
 .container.container-spacing-xl {
   padding: 50px 40px;
+}
+
+.container.container-no-padding {
+  padding: 0;
 }
 
 .container.container-white {
