@@ -10,22 +10,14 @@ export default component$(() => {
         <div class={["container", "container-flex","container-no-horizontal-padding", styles.textWrap]}>
           <Headshot alt="jennifer gance" class={styles.headshot}/>
           <div class={"pull-left"}>
-            <p>I support organizations who are interested in raising and expanding their consciousness through focused
-              personal and professional development.</p>
-            <p>All change management is truly transformational when organizations are extremely intentional about it.
-              Mixing professional coaching with personal and professional development is one of the most
-              transformational methodologies for supporting organizations, teams and individuals with reaching their
-              maximum growth potential.</p>
+            <p>I support organizations who are interested in raising and expanding their consciousness through focused personal and professional development.</p>
+            <p>All change management is truly transformational when organizations are extremely intentional about it. Mixing professional coaching with personal and professional development is one of the most transformational methodologies for supporting organizations, teams and individuals with reaching their maximum growth potential. </p>
 
-            <p>Coaching, combined with a tailored professional development plan, is designed to accomplish the company’s
-              desired outcomes and takes consideration to all the unique personalities involved in the engagement.</p>
+            <p>Coaching, combined with a tailored professional development plan, is designed to accomplish the company’s desired outcomes and takes consideration to all the unique personalities involved in the engagement.</p>
 
-            <p>This methodology creates “buy-in” and gets employees excited to engage in a truly transformational
-              experience that will bring out their highest potential professionally. As a bonus, they will also
-              experience amazing results in their personal lives!</p>
+            <p>This methodology creates “buy-in” and gets employees excited to engage in a truly transformational experience that will bring out their highest potential professionally.  As a bonus, they will also experience amazing results in their personal lives!</p>
 
-            <small>Jennifer is a Professional Certified Coach (PCC) & a certified Team and Leadership Coach through an
-              ICF (International Coaching Federation) accredited program.</small>
+            <small>Jennifer is a  Professional Certified Coach (PCC) & a certified Team and Leadership Coach through an ICF (International Coaching Federation) accredited program.</small>
           </div>
         </div>
 
@@ -39,8 +31,10 @@ export default component$(() => {
               <ul class={["pull-left"]}>
                 <li><p>Short & Long-term engagements - I’ve have engagements run from 3 months to 2+ years.</p></li>
                 <li><p>Targeted workshops, Retreats, Lunch & Learns - 1/2 day, week long, etc.</p></li>
-                <li><p>Emotional Intelligence assessment certification (EQ-i 2.0) - Individual and 360 assessments.</p></li>
-                <li><p>DRiV Assessment - provides access and actionable approaches to what drives or drains behaviors.</p></li>
+                <li><p>Emotional Intelligence assessment certification (EQ-i 2.0) - Individual and 360 assessments.</p>
+                </li>
+                <li><p>DRiV Assessment - provides access and actionable approaches to what drives or drains
+                  behaviors.</p></li>
                 <li><p>Energy Leadership Index (ELI) -Individual and 360 assessments that measure attitudes in terms of
                   energy.</p>
                 </li>
@@ -52,6 +46,7 @@ export default component$(() => {
 
             <Corp alt="jennifer gance" class={styles.headshot}/>
           </div>
+          <a href="/public/Establishing Buy-In for Professional Development and Coaching.pdf" class={["cta-wide", "button"]} target={'_blank'}>Click Here for a FREE guide to establishing buy-in with your team(s) and organization!</a>
         </div>
       </div>
   )
