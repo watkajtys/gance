@@ -2,6 +2,7 @@ import {component$} from "@builder.io/qwik";
 import type {DocumentHead} from "@builder.io/qwik-city";
 import styles from "~/components/gance/introduction/introduction.module.css";
 import Headshot from "../../media/Gance-1a.jpg?jsx";
+import Panel from "../../media/panel.png?jsx";
 
 export default component$(() => {
   return (
@@ -39,11 +40,13 @@ export default component$(() => {
               </li>
               <li><p><b>Emotional Intelligence Practitioner</b> and the EQ-i 2.0 assessments from Multi-Healthy Systems,
                 Inc. </p></li>
-              <li><p><b>Published in Women of Denver Magazine</b>. <a href="/public/Women of Denver Article Publication 5.22.2020pg 1.pdf" target={"_blank"}>Embodiment and Magnetizing in Business</a></p>
+              <li><p><b>Published in Women of Denver Magazine</b>. <a href="/Women of Denver Article Publication 5.22.2020pg 1.pdf" target={"_blank"}>Embodiment and Magnetizing in Business</a></p>
               </li>
               <li><p><b>Bachelor of Business Management and Master of Accountancy</b>, both from Metropolitan State
                 University of Denver</p></li>
             </ul>
+
+            <Panel alt={"Jennifer Gance at Denver Startup Week"} class={styles.fullWidthImage}/>
           </div>
           <div class={'spacer'}></div>
           <a href="mailto:jennifer@jennifergance.com" class={["cta-wide", "button"]}>Email Me</a>
