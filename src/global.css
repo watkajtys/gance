@@ -11,8 +11,8 @@
   --light-blue: rgb(140, 200, 200);
   --qwik-light-purple: #ac7ff4;
   --qwik-dark-purple: #713fc2;
-  --qwik-dirty-black: #222;
-  --qwik-dark-background: rgb(140,200,200);
+  --darker-text: #222;
+  --qwik-dark-background: rgb(113, 173, 173);
   --qwik-dark-text: #ffffff;
     --dark-text : #686764;
     --top-margin: 40px;
