@@ -28,7 +28,7 @@ export default component$(() => {
                 Services
               </a>
               <a
-                  href="/contact"
+                  href="/testimonials"
               >
                 Testimonials
               </a>
