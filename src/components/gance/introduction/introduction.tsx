@@ -21,7 +21,7 @@ export default component$(() => {
           </div>
         </div>
 
-        <a href="mailto:jennifer@jennifergance.com" class={["cta-wide", "button"]}>Get Started</a>
+        <a href="https://us4.list-manage.com/contact-form?u=c0f71ba84c0b47e885ab0cab1&form_id=9912b42e6cba6d343728cc4ced1b5e0d" class={["cta-wide", "button"]}>Get Started</a>
 
         <div class={'section'}>
           <h3>Corporate Sector & Organizations</h3>
@@ -46,7 +46,7 @@ export default component$(() => {
 
             <Corp alt="jennifer gance" class={styles.headshot}/>
           </div>
-          <a href="/public/Establishing Buy-In for Professional Development and Coaching.pdf" class={["cta-wide", "button"]} target={'_blank'}>Click Here for a FREE guide to establishing buy-in with your team(s) and organization!</a>
+          <a href="/establishing-buy-in.pdf" class={["cta-wide", "button"]} target={'_blank'}>Click Here for a FREE guide to establishing buy-in with your team(s) and organization!</a>
         </div>
       </div>
   )
