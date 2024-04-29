@@ -1,7 +1,7 @@
 import {component$} from "@builder.io/qwik";
 import type {DocumentHead} from "@builder.io/qwik-city";
 import styles from "~/components/gance/introduction/introduction.module.css";
-import Headshot from "../../media/headshot.jpeg?jsx";
+import Headshot from "../../media/Gance-1a.jpg?jsx";
 
 export default component$(() => {
   return (
