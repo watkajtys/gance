@@ -95,6 +95,10 @@ h3 {
   text-align: center;
 }
 
+.__hide_on_mobile {
+  display: none !important;
+}
+
 @media screen and (min-width: 768px) {
   h1 {
     font-size: 4rem;
@@ -201,6 +205,10 @@ do nothing on mobile
   ul.two-columns {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .__hide_on_mobile {
+    display: unset !important;
   }
 }
 
