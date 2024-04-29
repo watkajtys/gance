@@ -105,12 +105,29 @@ export default component$(() => {
                   <li><p><b>DRiv assessment </b> - certification administered through OKA; identifies what drives and
                     drains individuals.</p></li>
                 </ul>
+              </div>
 
+              <div>
+                <h3 class={'margin'}>Demonstrated Outcomes and Return on Investment (ROI)</h3>
+                <ul>
+                  <li><p>Improved KPIs after only 2 months</p></li>
+                  <li><p>Higher retention</p></li>
+                  <li><p>Improved trust and transparency</p></li>
+                  <li><p>Better communication frameworks</p></li>
+                  <li><p>Conflict resolution skills</p></li>
+                  <li><p>Changed attitudes and behaviors across teams/organizations</p></li>
+                  <li><p>Collaboration mindset</p></li>
+                  <li><p>Increased employee engagement</p></li>
+                  <li><p>Leadership and employee well-being resulting in improved performance</p></li>
+                  <li><p>Experience increased psychological safety</p></li>
+                  <li><p>And more…</p></li>
+                </ul>
               </div>
             </div>
 
             <div class={'spacer'}></div>
-            <a href="/establishing-buy-in.pdf" class={["cta-wide", "button"]} target={'_blank'}>Get your free guide to Establishing Buy-In with your Organization and Team for Professional Development!</a>
+            <a href="/establishing-buy-in.pdf" class={["cta-wide", "button"]} target={'_blank'}>Get your free guide to
+              Establishing Buy-In with your Organization and Team for Professional Development!</a>
           </div>
 
       </>
@@ -119,9 +136,9 @@ export default component$(() => {
 
 export const head: DocumentHead = {
   title: "Jennifer Gance Coaching & Consulting",
-  meta: [
+  meta : [
     {
-      name: "description",
+      name   : "description",
       content: "Jennifer Gance supports organizations who are interested in raising and expanding their consciousness through focused personal and professional development.",
     },
   ],
