@@ -10,6 +10,8 @@
 
 .headshot {
   border-radius: 10px 20px;
+  width: 50%;
+  height: 100%;
 }
 
 @media screen and (min-width: 768px) {
