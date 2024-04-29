@@ -1,0 +1,25 @@
+.testimonial {
+  width: 100%;
+  background: white;
+  display: flex;
+  vertical-align: middle;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  min-height: 300px;
+  justify-content: center;
+  padding: 30px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 10px 20px;
+  box-shadow: var(--darker-text) 1px 1px 2px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: var(--darker-text);
+}

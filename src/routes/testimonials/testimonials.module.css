@@ -1,0 +1,22 @@
+.fullWidthImage {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 20px;
+  object-fit: cover;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  align-content: space-between;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: stretch;
+}
+
+@media screen and (min-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
