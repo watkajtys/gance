@@ -61,7 +61,7 @@ export const head: DocumentHead = {
   meta : [
     {
       name   : "description",
-      content: "Jennifer Gance supports organizations who are interested in raising and expanding their consciousness through focused personal and professional development.",
+      content: "Jennifer Gance is a Professional Certified Coach (PCC) & a certified Team and Leadership Coach through an ICF (International Coaching Federation) accredited program. She supports organizations who are interested in raising and expanding their consciousness through focused personal and professional development",
     },
   ],
 };
