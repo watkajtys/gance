@@ -17,36 +17,36 @@ export default component$(() => {
       <div class={'container container-no-padding'}>
         <ul class={styles.marquee} style={{"--count": "12"}}>
           <li style={{"--index": "1"}}>
-            <Logo11/>
+            <Logo11 alt={"salesforce logo"}/>
           </li>
           <li style={{"--index": "2"}}>
-            <Logo1/>
+            <Logo1 alt={"Administration For Children and Families logo"}/>
           </li>
           <li style={{"--index": "3"}}>
-            <Logo2/>
+            <Logo2 alt={"Design Leadership Network logo"}/>
           </li>
           <li style={{"--index": "4"}}>
-            <Logo3/>
+            <Logo3 alt={"EV Studio logo"}/>
           </li>
           <li style={{"--index": "5"}}>
-            <Logo4/>
+            <Logo4 alt={"Rosemary Hallgarten"}/>
           </li>
           <li style={{"--index": "6"}}>
-            <Logo5/>
+            <Logo5 alt={"Golden Triangle Creative District"}/>
           </li>
           <li style={{"--index": "7"}}>
-            <Logo6/>
+            <Logo6 alt={"Town"}/>
           </li>
           <li style={{"--index": "8"}}>
-            <Logo7/></li>
+            <Logo7 alt={"US Department of Health and Human Services"}/></li>
           <li style={{"--index": "9"}}>
-            <Logo8/>
+            <Logo8 alt={"US Anesthesia Partners"}/>
             </li>
           <li style={{"--index" : "10"}}>
-            <Logo9/>
+            <Logo9 alt={"Women of the World Endowment"}/>
           </li>
           <li style={{"--index": "11"}}>
-            <Logo10/>
+            <Logo10 alt={"accenture"}/>
           </li>
 
         </ul>

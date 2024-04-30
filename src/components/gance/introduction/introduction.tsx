@@ -44,7 +44,7 @@ export default component$(() => {
               </ul>
             </div>
 
-            <Corp alt="jennifer gance" class={styles.headshot}/>
+            <Corp alt="jennifer gance coach" class={styles.headshot}/>
           </div>
           <a href="/establishing-buy-in.pdf" class={["cta-wide", "button"]} target={'_blank'}>Click Here for a FREE guide to establishing buy-in with your team(s) and organization!</a>
         </div>
