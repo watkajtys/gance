@@ -8,7 +8,7 @@ export default component$(() => {
         <div class={["container", styles.wrapper]}>
           <div class={styles.logo}>
             <a href="/" title="jennifer gance">
-              <MainLogo/>
+              <MainLogo alt={"Jennifer Gance Coaching & Consulting"}/>
               <div class={"__hide_on_mobile"}>
                 <h1>Jennifer Gance</h1>
                 <h2>Coaching & Consulting</h2>
