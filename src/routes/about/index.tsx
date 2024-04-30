@@ -22,7 +22,7 @@ export default component$(() => {
                 seeking insights and support surrounding their professional and personal development. They would say,
                 “you are easy to talk to.” I also held everything they confided within strict confidentiality.</p>
 
-              <p>That was when I KNEW I could bring more to others by creating my own company and bringing my skills to
+              <p>That was when <u>I KNEW</u> I could bring more to others by creating my own company and bringing my skills to
                 a variety of organizations and individuals around the globe. Since August of 2019, my work with
                 organizations has been truly transformational. My clients have cited they experience a more positive,
                 efficient workplace, happier clients, higher quality professional relationships, an increase in revenues
