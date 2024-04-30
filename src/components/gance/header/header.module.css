@@ -53,20 +53,25 @@
     box-sizing: border-box;
     padding: 10px 20px;
     background: var(--light-blue);
-    color: white;
+    color: var(--dark-text);
     border: none;
     border-radius: 5px;
     cursor: pointer;
-  transition: background 0.3s;
+    transition: background 0.3s, color 0.3s;
 }
 
 .button:hover {
     background: var(--dark-blue);
+    color: white;
 }
 
 .menu a {
-  position: relative;
+  position      : relative;
+    color       : var(--dark-text);
+    font-family : Montserrat-Regular, sans-serif;
+    letter-spacing: 1px;
 }
+
 
 .menu a:not(.button)::after {
   content: "";

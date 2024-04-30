@@ -46,9 +46,9 @@ body {
 
 p {
   color: var(--dark-text);
-  font-size: 1.2rem;
+  font-size: 1.35rem;
   letter-spacing: 1px;
-  line-height: 1.4rem;
+  line-height: 1.8rem;
 }
 
 b {
@@ -225,16 +225,21 @@ do nothing on mobile
 /* BUTTONS -------------------------------------- */
 a.button,
 button {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 10px 20px;
   background: var(--light-blue);
+  color: var(--dark-text);
   border: none;
-  border-radius: 8px;
-  color: white;
+  border-radius: 5px;
   cursor: pointer;
-  font-size: 0.8rem;
-  padding: 15px 20px;
-  text-align: center;
-  display: block;
-  position : relative;
+  transition: background 0.3s, color 0.3s;
+  font-family: Montserrat-Regular, sans-serif;
+}
+
+a.button:hover, .button:hover {
+  background: var(--dark-blue);
+  color: white;
 }
 
 a.button.button-dark,

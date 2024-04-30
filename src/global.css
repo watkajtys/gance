@@ -11,10 +11,10 @@
   --light-blue: rgb(140, 200, 200);
   --qwik-light-purple: #ac7ff4;
   --qwik-dark-purple: #713fc2;
-  --darker-text: #222;
+  --darker-text: #111;
   --qwik-dark-background: rgb(113, 173, 173);
   --qwik-dark-text: #ffffff;
-    --dark-text : #686764;
+    --dark-text : #111;
     --top-margin: 40px;
 }
 
