@@ -14,7 +14,7 @@ export default component$(() => {
               <h3 class={'margin'}>1:1 Coaching</h3>
               <div class={["container", "container-no-padding", "container-flex"]}>
                 <NewGanceImage alt="jennifer gance" class={styles.headshot}/>
-                <div class={"flex-column"}>
+                <div class={["flex-column", "shared-container-60"]}>
                   <p>This is a service I provide for those looking for support in their own personal development.</p>
                   <p>Women and men of all ages exploring professional and or personal development (executive,
                     leadership, career, spiritual, relationships, other). I support individuals in whatever their

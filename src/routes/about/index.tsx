@@ -11,7 +11,7 @@ export default component$(() => {
           <h3>Meet Jennifer</h3>
           <div class={["container", "container-flex", "container-no-horizontal-padding", styles.textWrap]}>
             <Headshot alt="jennifer gance" class={styles.headshot}/>
-            <div class={"pull-left"}>
+            <div class={["pull-left", "shared-container-60"]}>
               <p>I have a strong desire to support conscious, mindful organizations as well as individuals who want a
                 deeper way of conducting business and living their highest lives.</p>
               <p>I held many leadership roles in various industries through the years, and my employees loved to work

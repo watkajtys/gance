@@ -9,7 +9,7 @@ export default component$(() => {
         <h3>Jennifer Gance, ICE-PCC</h3>
         <div class={["container", "container-flex","container-no-horizontal-padding", styles.textWrap]}>
           <Headshot alt="jennifer gance" class={styles.headshot}/>
-          <div class={"pull-left"}>
+          <div class={["pull-left", 'shared-container-60']}>
             <p>I support organizations who are interested in raising and expanding their consciousness through focused personal and professional development.</p>
             <p>All change management is truly transformational when organizations are extremely intentional about it. Mixing professional coaching with personal and professional development is one of the most transformational methodologies for supporting organizations, teams and individuals with reaching their maximum growth potential. </p>
 
@@ -26,7 +26,7 @@ export default component$(() => {
         <div class={'section'}>
           <h3>Corporate Sector & Organizations</h3>
           <div class={["container", "container-flex", "container-no-horizontal-padding"]}>
-            <div>
+            <div class={"shared-container-60"}>
               <p>All services are tailored or unique organizational needs:</p>
               <ul class={["pull-left"]}>
                 <li><p>Short & Long-term engagements - I’ve have engagements run from 3 months to 2+ years.</p></li>
