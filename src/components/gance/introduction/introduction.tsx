@@ -6,7 +6,7 @@ import Corp from "../../../media/corp.jpeg?jsx";
 export default component$(() => {
   return (
       <div class={["container", "container-white", "container-center", styles.introduction]}>
-        <h3>Jennifer Gance, ICE-PCC</h3>
+        <h2>Jennifer Gance, ICE-PCC</h2>
         <div class={["container", "container-flex","container-no-horizontal-padding", styles.textWrap]}>
           <Headshot alt="jennifer gance" class={styles.headshot}/>
           <div class={["pull-left", 'shared-container-60']}>

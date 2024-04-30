@@ -12,7 +12,7 @@ export default component$(() => {
       <Hero text={'Life and Leadership'}/>
       <Introduction />
       <div class={'container container-center'}>
-        <h2 class={'__center_text'}>Expanding Consciousness At Innovative Organizations</h2>
+        <h3 class={'__center_text'}>Expanding Consciousness At Innovative Organizations</h3>
       </div>
       <Marquee />
       <div class={'spacer'}/>
