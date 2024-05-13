@@ -102,8 +102,6 @@ export default component$(() => {
                     terms of energy.</p></li>
                   <li><p><b>Enneagram</b> - The Creative Consciousness Foundation. Course study 2022-2023: ‘The
                     Enneagram of Awakening.’</p></li>
-                  <li><p><b>DRiv assessment </b> - certification administered through OKA; identifies what drives and
-                    drains individuals.</p></li>
                 </ul>
               </div>
 
