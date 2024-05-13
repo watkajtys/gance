@@ -214,6 +214,7 @@ do nothing on mobile
   ul.two-columns {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 0 10%;
   }
 
   .__hide_on_mobile {

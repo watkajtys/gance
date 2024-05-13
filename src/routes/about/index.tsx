@@ -49,7 +49,7 @@ export default component$(() => {
             <Panel alt={"Jennifer Gance at Denver Startup Week"} class={styles.fullWidthImage}/>
           </div>
           <div class={'spacer'}></div>
-          <a href="mailto:jennifer@jennifergance.com" class={["cta-wide", "button"]}>Contact ME</a>
+          <a href="https://us4.list-manage.com/contact-form?u=c0f71ba84c0b47e885ab0cab1&form_id=9912b42e6cba6d343728cc4ced1b5e0d" class={["cta-wide", "button"]}>Contact Me</a>
 
         </div>
       </>

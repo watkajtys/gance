@@ -93,7 +93,7 @@ export default component$(() => {
 
               <div>
                 <h3 class={'margin'}>Assessment Certifications</h3>
-                <p><b><a href="mailto:jennifer@jennifergance.com">contact me</a> for other assessment offerings.</b></p>
+                <p><b><a href="https://us4.list-manage.com/contact-form?u=c0f71ba84c0b47e885ab0cab1&form_id=9912b42e6cba6d343728cc4ced1b5e0d">contact me</a> for other assessment offerings.</b></p>
                 <ul>
                   <li><p><b>Emotional Intelligence (EQ-i 2.0)</b> - Measures individual and 360 assessments.</p></li>
                   <li><p><b>DRiV Assessment </b> - provides access and actionable approaches to what drives or drains
@@ -124,8 +124,10 @@ export default component$(() => {
             </div>
 
             <div class={'spacer'}></div>
-            <a href="/establishing-buy-in.pdf" class={["cta-wide", "button"]} target={'_blank'}>Get your free guide to
-              Establishing Buy-In with your Organization and Team for Professional Development!</a>
+            <div class={['container', 'container-no-padding', 'container-center']}>
+              <a href="/establishing-buy-in.pdf" className={["cta-wide", "button"]} target={'_blank'}>Click Here for a
+                FREE guide to establishing buy-in with your team(s) and organization!</a>
+            </div>
           </div>
 
       </>
@@ -136,7 +138,7 @@ export const head: DocumentHead = {
   title: "Jennifer Gance Coaching & Consulting",
   meta : [
     {
-      name   : "description",
+      name: "description",
       content: "Jennifer Gance supports organizations who are interested in raising and expanding their consciousness through focused personal and professional development.",
     },
   ],
