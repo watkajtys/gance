@@ -125,7 +125,7 @@ export default component$(() => {
 
             <div class={'spacer'}></div>
             <div class={['container', 'container-no-padding', 'container-center']}>
-              <a href="/establishing-buy-in.pdf" className={["cta-wide", "button"]} target={'_blank'}>Click Here for a
+              <a href="/establishing-buy-in.pdf" class={["cta-wide", "button"]} target={'_blank'}>Click Here for a
                 FREE guide to establishing buy-in with your team(s) and organization!</a>
             </div>
           </div>
