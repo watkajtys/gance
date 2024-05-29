@@ -93,7 +93,7 @@ export default component$(() => {
 
               <div>
                 <h3 class={'margin'}>Assessment Certifications</h3>
-                <p><b><a href="https://us4.list-manage.com/contact-form?u=c0f71ba84c0b47e885ab0cab1&form_id=9912b42e6cba6d343728cc4ced1b5e0d">contact me</a> for other assessment offerings.</b></p>
+                <p><b><a href="https://us4.list-manage.com/contact-form?u=c0f71ba84c0b47e885ab0cab1&form_id=9912b42e6cba6d343728cc4ced1b5e0d">Contact Me</a> for other assessment offerings.</b></p>
                 <ul>
                   <li><p><b>Emotional Intelligence (EQ-i 2.0)</b> - Measures individual and 360 assessments.</p></li>
                   <li><p><b>DRiV Assessment </b> - provides access and actionable approaches to what drives or drains
@@ -125,7 +125,7 @@ export default component$(() => {
 
             <div class={'spacer'}></div>
             <div class={['container', 'container-no-padding', 'container-center']}>
-              <a href="/establishing-buy-in.pdf" className={["cta-wide", "button"]} target={'_blank'}>Click Here for a
+              <a href="/establishing-buy-in.pdf" class={["cta-wide", "button"]} target={'_blank'}>Click Here for a
                 FREE guide to establishing buy-in with your team(s) and organization!</a>
             </div>
           </div>
